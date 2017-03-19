@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Temperature Data from Arduino</title>
+  <script type="text/javascript" src="https://pubnub.github.io/eon/v/eon/1.0.0/eon.js"></script>
+<link type="text/css" rel="stylesheet" href="https://pubnub.github.io/eon/v/eon/1.0.0/eon.css"/>
+
+  <style type="text/css">
+
+  * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+  body {
+      font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', 'Roboto Light', 'Segoe UI Web Light', 'Segoe UI Light', 'Segoe UI Web Regular', 'Segoe UI', Helvetica, Arial, sans-serif;
+      margin: 1em;
+  }
+  header {
+    margin-bottom: 100px;
+  }
+  h1 {
+    font-weight: 200;
+  }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Temperature Data from Arduino</h1>
+</header>
+
+<div id="chart">
+  <div id="temp"></div>
+</div>
+
+
+
+<div id="chart"></div>
+<script>
+  var pubnub = new PubNub({
+    publishKey:   'pub-c-ec55a238-d206-4883-87da-d3d27f2c2be2', // replace with your own pub-key
+    subscribeKey: 'sub-c-ae3a7086-0cda-11e7-b8f1-0619f8945a4f' // replace with your own sub-key
+  });
+
+  eon.chart({
+    pubnub: pubnub,
+    channels: ["temperature-lm35dz"],
+    generate: {
+      bindto: '#chart',
+      data: {
+        labels: true
+      }
+    }
+  });
+</script>
+</script>
+</body>
+</html>
