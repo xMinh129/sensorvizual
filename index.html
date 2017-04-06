@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Live Patient Dashboard</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- styles -->
+    <link href="css/styles.css" rel="stylesheet">
+    <link href="css/extra.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="page-content" style="padding:0px;">
+      <div style=" height:50px; background-color: #00BEE6;">
+          <div style=" margin-left: auto; text-align:center;">
+            <div style="display:inline-block;"><img class="applogo" src="https://image.ibb.co/kMJPGF/nuhlogo.png" alt="nuhlogo" border="0"></div>
+            <div style="display: inline-block"><h1 class="apptitle">NUH</h1></div>
+          </div>
+      </div>
+    	<div class="row" style="margin: 0px;">
+		  <div class="col-md-2" style="padding:0px; margin: 0px;">
+		  	<div class="sidebar content-box" style="display: block; margin: 0px; border-radius: 0px;border:0px; padding:0px; background-color: #34627F;">
+          <div style="height: 200px; background-color: #325A72">
+            <div style="max-height:110px;"><img class ="patient-image" src="https://image.ibb.co/bE8h1F/cutmypic_3.png" alt="cutmypic_3" border="0" style="margin: 0px auto;"/></div>
+          <h3 class="patient-name">Kai Sing</h3>
+          <p class="patient-address">Kent Ridge - Singapore</p>
+          </div>
+          <div style="height: 400px; background-color:#34627F ">
+            </div>
+                <ul class="nav">           <!-- Main menu -->
+                    <li class="current" style><a href="index.html"><i class="glyphicon glyphicon-home"></i> Dashboard</a></li>
+                    <!-- <li style= "background-color: #00BEE6"><a style="color:#fff" href="stats.html"><i class="glyphicon glyphicon-stats"></i> Statistics (Charts)</a></li> -->
+
+                    <li style= "background-color: #00BEE6" class="submenu">
+                         <a style="color:#fff" href="#">
+                            <i class="glyphicon glyphicon-list"></i> Pages
+                            <span class="caret pull-right"></span>
+                         </a>
+                         <!-- Sub menu -->
+                         <ul>
+                            <li><a href="login.html">Login</a></li>
+                            <li><a href="signup.html">Signup</a></li>
+                        </ul>
+                    </li>
+                </ul>
+             </div>
+          <div style="height: 300px; background-color:#34627F "></div>
+		  </div>
+      <div class="col-md-10" style="padding:0px;">
+        <!-- Statistics -->
+		  	<div class="content-box-large" style="height:100%; margin-left: 0px; padding-left: 0px; border-radius: 0px;">
+          <div class="row-3 clearfix; font-family: Helvetica;">
+           <div class="column-top top-1">
+             <div class="header-stat"></div>
+             <div class="header-stat-title">HEART RATE</div>
+             <div class="graph"></div>
+          </div>
+           <div class="column-top top-2">
+             <div class="header-stat"></div>
+             <div class="header-stat-title">spo2</div>
+             <div class="graph"></div>
+           </div>
+           <div class="column-top top-3">
+             <div class="header-stat"></div>
+             <div class="header-stat-title">Respiration Rate</div>
+             <div class="graph"></div>
+           </div>
+           <div class="column-top top-3">
+             <div class="header-stat"></div>
+             <div class="header-stat-title">Blood Pressure</div>
+             <div class="graph"></div>
+           </div>
+         </div>
+         <div class="row-4 clearfix">
+           <div class="column-bottom bottom-1" style="float: left; width: 200px; height: 150px; padding: 20px">Temperature<br><div class="medical-icon1"><br><img src="https://image.ibb.co/cMRirF/thermometer.png" alt="thermometer" border="0"></div></div>
+           <div class="column-bottom" style="float: left; width: 200px; height: 150px; padding: 20px">Pulse<div class="medical-icon"><br><img class="medical-icon2"src="https://image.ibb.co/dfXyaa/heartbeat.png" alt="heartbeat" border="0"></div><h1 class="status">88 BPM</h1></div>
+           <div class="column-bottom" style="float: left; width: 200px; height:150px; padding: 20px">Blood Pressure<div class="medical-icon2"><br><img src="https://image.ibb.co/fg2Zyv/bloodpressure.png" height="50px" width="50px" alt="bloodpressure" border="0"></div></div>
+          <div class="column-bottom bottom-4" style="float: left; width: 200px; height:150px; padding: 20px">Toilet Usage<div class="medical-icon2"><br><img src="https://image.ibb.co/i4HTQa/toilet.png" alt="toilet" border="0"></div></div>
+         </div>
+         <div class="row-3 clearfix">
+
+         </div>
+        </div>
+		  </div>
+		</div>
+    </div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="js/custom.js"></script>
+
+</html>

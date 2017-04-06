@@ -1,0 +1,144 @@
+.boxx{
+  padding: 20px;
+  background: #00bce2;
+  margin-top: 20px;
+  border-right: 1px solid #00bce2;
+}
+.div{
+  background: rgb(102, 102, 102);
+}
+.boxx{
+  background: rgb(231, 230, 230);
+  margin-top: 20px;
+  border-right: 1px solid rgb(68, 84, 106);
+
+}
+.boxx-1{
+  font-size: 24px;
+  font-weight: bold;
+}
+.page-content > .row {
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+  margin-top: 30px;
+}
+  .clearfix:after {
+  content: "";
+display: table;
+clear: both;
+}
+.row-3{
+  padding-top: 20px;
+  padding-left:20px;
+  font-weight: 500px;
+}
+.row-4{
+  padding-top: 20px;
+  padding-left:100px;
+  padding-right:50px;
+}
+.column-top{
+  margin-bottom: 20px;
+  color:white;
+  float: left;
+  width: 50%;
+  height: 250px;
+}
+.header-stat{
+  background-color:#04A65B;
+  width: 100%;
+  height: 3px;
+  font-weight: bold;
+  line-height: 1px;
+  font-size:1px;
+}
+.header-stat-title{
+  color: #8B9491;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: left;
+  padding: 10px;
+  text-transform: uppercase;
+}
+.column-bottom{
+
+  margin-right: 2px;
+  color: white;
+}
+.column-bottom {
+  float: left;
+  width: 50%;
+  margin-right: 2px;
+  text-align:center;
+}
+.medical-icon2{
+  display:block;
+       margin-left: auto;
+       margin-right: auto;
+}
+.medical-icon1{
+       float:left;
+}
+.status{
+  font-weight: lighter;
+  margin-top: 0px;
+}
+@media all and ( min-width: 768px ) {
+  .column-bottom {
+    float: left;
+    width: 25%;
+    margin-right: 2px;
+  }
+  .bottom-1{
+    margin-left:100px;
+  }
+
+}
+.column-top{
+border: 1px solid;
+text-align: center;
+}
+.top-1{
+background-color: #ffffff;
+border: #ffffff;
+}
+.top-2{
+background-color: #ffffff;
+border: #ffffff;
+}
+.top-3{
+background-color: #ffffff;
+border: #ffffff;
+}
+.column-bottom{
+border: 1px solid #31D5EA;
+background: #31D5EA;
+
+}
+.bottom-4{
+background: #31D5EA;
+}
+.apptitle{
+  margin:0px;
+  text-align:center;
+  padding: 5px 0 0px 0px;
+  color: #34627F !important
+}
+.apptitle h1{
+  display:inline-block;
+  float:left;
+}
+.applogo{
+  margin: 0px 10px 20px 20px;
+  height: 40px;
+}
+@media all and ( min-width: 768px ) {
+  .apptitle{
+    padding: 5px 0 20px 0px;
+  }
+.patient-collection{
+  width: 200px;
+  display:inline-block;
+  background-color: #00A7C6;
+  border: 2px #00A7C6;
+}
